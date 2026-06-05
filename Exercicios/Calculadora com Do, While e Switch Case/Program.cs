@@ -3,7 +3,7 @@ namespace Exercicio
 {
     public class Ex1
     {
-        public static void Executar()
+        public static void Main()
         {
             int opcao = 0;
             Console.WriteLine("Escolha um número:");
@@ -14,14 +14,14 @@ namespace Exercicio
 
             do
             {
-                Console.WriteLine("=Bem-Vindo=");   
-                Console.WriteLine("Opção 1 - Somar:");  
-                Console.WriteLine("Opção 2 - Subtrair:");  
-                Console.WriteLine("Opção 3 - Multiplicação:");  
-                Console.WriteLine("Opção 4 - Divisão:");  
-                Console.WriteLine("Opção 5 - Sobra divisão:");  
-                Console.WriteLine("Opção 6 - Descobrir se os números são iguais:"); 
-                Console.WriteLine("Opção 7 - Maior ou menor que o outro:"); 
+                Console.WriteLine("=Bem-Vindo=");
+                Console.WriteLine("Opção 1 - Somar:");
+                Console.WriteLine("Opção 2 - Subtrair:");
+                Console.WriteLine("Opção 3 - Multiplicação:");
+                Console.WriteLine("Opção 4 - Divisão:");
+                Console.WriteLine("Opção 5 - Sobra divisão:");
+                Console.WriteLine("Opção 6 - Descobrir se os números são iguais:");
+                Console.WriteLine("Opção 7 - Maior ou menor que o outro:");
                 Console.WriteLine("Opção 8 - Sair");
                 Console.WriteLine("Escolha uma opção");
 
@@ -50,10 +50,11 @@ namespace Exercicio
                         Console.WriteLine(sobDiv);
                         break;
                     case 6:
-                        if(n1 == n2)
+                        if (n1 == n2)
                         {
                             Console.WriteLine("Os números são iguais");
-                        } else
+                        }
+                        else
                         {
                             Console.WriteLine("Os número são diferentes");
                         }
@@ -66,7 +67,8 @@ namespace Exercicio
                         else if (n2 > n1)
                         {
                             Console.WriteLine($"o número {n2} é maior que o {n1}");
-                        } else
+                        }
+                        else
                         {
                             Console.WriteLine("Os números são iguais");
                         }

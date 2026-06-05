@@ -2,7 +2,7 @@
 {
     public class Ex2
     {
-        public static void Executar()
+        public static void Main()
         {
             Console.WriteLine("Digite seu nome: ");
             string name = Console.ReadLine();
